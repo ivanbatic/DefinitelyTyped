@@ -1270,7 +1270,7 @@ declare module Marionette {
         /** Deprecated! nstead of using the Application as the root of your view tree, you should use a Layout View.*/
         getRegion(regionName: string): Region;
 
-        module(moduleNames: any, moduleDefinition: any): Module;
+        module(moduleNames: any, moduleDefinition?: any): Module;
 
         /**
          * Called just before the Application starts and before the initializers are executed.
